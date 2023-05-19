@@ -11,6 +11,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-slidebar, stick-post, threaded-comments
 */
 
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('');
+    font-weight: bold;
+}
+
 .top-bar {
     background: red;
     height: 70px;
@@ -144,6 +150,11 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
 .woocommerce nav.woocommerce-pagination ul li a,
 .woocommerce nav.woocommerce-pagination ul li span {
     padding: 12px;
+}
+
+/* Cart */
+#add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text {
+    width: 150px;
 }
 
 /* General */
